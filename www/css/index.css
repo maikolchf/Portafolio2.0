@@ -1,4 +1,6 @@
-
+body{
+    background-color: ;
+}
 .header-container{
     height: 100vh;
     display: grid;
@@ -92,6 +94,7 @@
 /* about */
 
 .about-container {
+    color: grey;
     .title {
         h1{
             text-align: center;
