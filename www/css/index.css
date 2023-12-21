@@ -1,16 +1,17 @@
 
-.header{
+.header-container{
     height: 100vh;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 20px;
+    width: 100%;
 }
 
 .col1{
     display: flex; 
     justify-content: center;
     align-items: center;
-   
+    width: 89%;
     h1{
         font-size: 3rem;
     }
@@ -19,7 +20,7 @@
     display: flex; 
     justify-content: center;
     align-items: center;
-
+    width: 89%;
     .info{
         border-radius: 2rem;    
         box-shadow: 24px 24px 48px #d9d9d9,-24px -24px 48px #d9d9d9;
@@ -64,25 +65,78 @@
 
 
 @media(max-width : 1684px){
-    .header{
+    .header-container{
         grid-template-columns: repeat(2,1fr) !important;
     }
 }
 
 @media(max-width : 1273px){
-    .header{
+    .header-container{
         grid-template-columns: repeat(1,1fr) !important;
     }
 }
 
 @media(max-width : 847px){
-    .header{
+    .header-container{
         grid-template-columns: repeat(1,1fr) !important;
     }
 }
 
 @media(max-width : 765px){
-    .header{
+    .header-container{
         grid-template-columns: repeat(1,1fr) !important;
+    }
+}
+
+
+/* about */
+
+.about-container {
+    .title {
+        h1{
+            text-align: center;
+        }
+    }
+    .img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+    .faceImg {
+        border-radius: 50%;
+        box-shadow: 24px 24px 48px #fff9f9,-24px -24px 48px #d9d9d9;
+    }
+
+    .text-about {
+        margin-top: 2%;
+        p {
+            text-align: left;
+        }
+
+        .span1 {
+            color: #2100F0;            
+        }
+
+        .span2 {
+            color: #4741F0;
+        }
+
+        .span3 {
+            color: #4072F0
+        }
+
+        .icono-text-about {
+            color: blueviolet;
+        }
+
+        .spanFuncion {
+            color: grey;
+        }
+
+        .spanParametroFuncion {
+            color: #F57E00;
+        }
     }
 }
