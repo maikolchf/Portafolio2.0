@@ -1,0 +1,83 @@
+.about-container {
+    color: grey;
+    .title {        
+        margin-bottom: 2%;
+        h1{
+            text-align: center;
+            color: rgb(27, 25, 25);
+            font-family: century gothic;
+            font-weight: bold;
+        }
+    }
+    .img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1%;
+    }
+    .faceImg {
+        border-radius: 50%;
+        box-shadow: 24px 24px 40px #fff9f9,-24px -24px 40px #d9d9d9;
+    }
+
+    .text-about {
+        p {
+            text-align: left;
+        }
+
+        .pre-about {
+            white-space: pre-line;
+            margin-left: 12%;
+            margin-bottom: -55px;
+        }
+        .span1 {
+            color: #2100F0;            
+        }
+
+        .span2 {
+            color: #4741F0;
+        }
+
+        .span3 {
+            color: #4072F0
+        }
+
+        .icono-text-about {
+            color: blueviolet;
+        }
+
+        .spanFuncion {
+            color: grey;
+        }
+
+        .spanParametroFuncion {
+            color: #F57E00;
+        }
+
+        .misConocimientos {
+            .titulo-misConocimientos {
+                h2{
+                    text-align: center;
+                }                               
+            }
+            
+            h3 {
+                text-align: center;
+            }
+            .conocimientos {
+                text-align: center;
+                margin-bottom: 5%;
+
+                h3 {
+                    margin-top: 2%;
+                }
+            }
+        }   
+        
+        
+        .pre-misConocimientos {
+            white-space: pre-line;
+            margin-left: 12%;
+        }
+    }
+}

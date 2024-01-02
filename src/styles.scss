@@ -1,1 +1,46 @@
 /* You can add global styles to this file, and also import other style files */
+@media(max-width : 1684px){
+    .header-container{
+        grid-template-columns: repeat(2,1fr) !important;
+    }
+}
+
+@media(max-width : 1273px){
+    .header-container{
+        grid-template-columns: repeat(1,1fr) !important;
+    }
+}
+
+@media(max-width : 847px){
+    .header-container{
+        grid-template-columns: repeat(1,1fr) !important;
+    }
+    .pre-misConocimientos  {
+        font-size: .700em;
+    }
+    .pre-about {
+        font-size: .700em;
+    }
+
+    .pre-header {
+        font-size: .700em;
+    }
+}
+
+@media(max-width : 437px){
+    .header-container{
+        grid-template-columns: repeat(1,1fr) !important;        
+    }
+
+    .pre-misConocimientos  {
+        font-size: .600em;
+    }
+    .pre-about {
+        font-size: .600em;
+    }
+
+    .pre-header {
+        font-size: .655em;
+    }
+
+}
