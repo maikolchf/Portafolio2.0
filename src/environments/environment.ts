@@ -1,4 +1,4 @@
 export const environment = {
     production: true,
-    imfPerfil: '/assets/img/Img-perfil.jpg'
+    imfPerfil: 'assets/img/Img-perfil.jpg'
 };
