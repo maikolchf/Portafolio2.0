@@ -7,5 +7,14 @@ import { environment } from './../../environments/environment'
   styleUrls: ['./about.component.scss']
 })
 export class AboutComponent {
-  imagenPerfil: string = '../../assets/img/Img-perfil.jpg';  
+  imagenPerfil: string = "";
+
+  constructor(){
+    if(environment.production){
+      this.imagenPerfil = environment.imfPerfil;
+    }else {
+      this.imagenPerfil = '../../assets/img/Img-perfil.jpg';
+    }
+  }
+  
 }
