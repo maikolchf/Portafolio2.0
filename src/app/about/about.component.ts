@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import { environment } from './../../environments/environment'
-import { Call } from '@angular/compiler';
 
 @Component({
   selector: 'app-about',
@@ -8,15 +7,5 @@ import { Call } from '@angular/compiler';
   styleUrls: ['./about.component.scss']
 })
 export class AboutComponent {
-  imagenPerfil: string = "";
-
-  constructor(){
-    if(environment.production){
-      this.imagenPerfil = environment.imfPerfil;
-    }else {
-      Call
-      this.imagenPerfil = '../../assets/img/Img-perfil.jpg';
-    }
-  }
-  
+  imagenPerfil: string = '../../assets/img/Img-perfil.jpg';  
 }
