@@ -12,7 +12,7 @@ export class AboutComponent {
 
   constructor(){
     if(environment.production){
-      this.imagenPerfil = environment.imfPerfil;
+      this.imagenPerfil = environment.imfPerfil; 
     }else {
       Call
       this.imagenPerfil = '../../assets/img/Img-perfil.jpg';
