@@ -44,3 +44,21 @@
     }
 
 }
+
+@media(max-width : 395px){
+    .header-container{
+        grid-template-columns: repeat(1,1fr) !important;        
+    }
+
+    .pre-misConocimientos  {
+        font-size: .530em;
+    }
+    .pre-about {
+        font-size: .600em;
+    }
+
+    .pre-header {
+        font-size: .600em;
+    }
+
+}
