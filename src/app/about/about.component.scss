@@ -77,7 +77,16 @@
         
         .pre-misConocimientos {
             white-space: pre-line;
-            margin-left: 12%;
-        }
+
+            p {
+                margin-left: 12%;
+            }
+                        
+            .misConocimientos-terminal{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }        
     }
 }
