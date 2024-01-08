@@ -1,0 +1,53 @@
+.tracks-container {
+    color: grey;
+    .title {        
+        margin-bottom: 2%;
+        h1{
+            text-align: center;
+            color: rgb(27, 25, 25);
+            font-family: century gothic;
+            font-weight: bold;
+        }
+    }
+        p {
+            text-align: left;
+        }
+
+        .span1 {
+            color: #2100F0;            
+        }
+
+        .span2 {
+            color: #4741F0;
+        }
+
+        .span3 {
+            color: #4072F0
+        }
+
+        .icono-text-about {
+            color: blueviolet;
+        }
+
+        .spanFuncion {
+            color: grey;
+        }
+
+        .spanParametroFuncion {
+            color: #F57E00;
+        }
+        .pre-tracks {
+            white-space: pre-line;
+            p {
+                margin-left: 12%;
+            }            
+            .tracks-terminal {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                
+            }
+        }
+        
+        
+}
