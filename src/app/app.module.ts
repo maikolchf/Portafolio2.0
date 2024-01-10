@@ -6,13 +6,19 @@ import { AppComponent } from './app.component';
 import { BannerComponent } from './banner/banner.component';
 import { AboutComponent } from './about/about.component';
 import { TracksComponent } from './tracks/tracks.component';
+import { WorkExperienceComponent } from './work-experience/work-experience.component';
+import { ContactComponent } from './contact/contact.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     BannerComponent,
     AboutComponent,
-    TracksComponent
+    TracksComponent,
+    WorkExperienceComponent,
+    ContactComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
