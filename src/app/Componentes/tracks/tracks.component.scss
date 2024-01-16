@@ -1,4 +1,4 @@
-.contact-container {
+.tracks-container {
     color: grey;
     .title {        
         margin-bottom: 2%;
@@ -12,35 +12,12 @@
         p {
             text-align: left;
         }
-
-        .span1 {
-            color: #2100F0;            
-        }
-
-        .span2 {
-            color: #4741F0;
-        }
-
-        .span3 {
-            color: #4072F0
-        }
-
-        .icono-text-about {
-            color: blueviolet;
-        }
-
-        .spanFuncion {
-            color: grey;
-        }
-
-        .spanParametroFuncion {
-            color: #F57E00;
-        }
-        .pre-contact {
+        .pre-tracks {
             white-space: pre-line;
             margin-left: 12%;
-                                  
-            .contact-terminal {
+            margin-bottom: -35px;
+            
+            .tracks-terminal {
                 display: flex;
                 justify-content: center;
                 align-items: center;

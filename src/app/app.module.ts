@@ -3,12 +3,13 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { BannerComponent } from './banner/banner.component';
-import { AboutComponent } from './about/about.component';
-import { TracksComponent } from './tracks/tracks.component';
-import { WorkExperienceComponent } from './work-experience/work-experience.component';
-import { ContactComponent } from './contact/contact.component';
-import { FooterComponent } from './footer/footer.component';
+import { BannerComponent } from './Componentes/banner/banner.component';
+import { AboutComponent } from './Componentes/about/about.component';
+import { TracksComponent } from './Componentes/tracks/tracks.component';
+import { WorkExperienceComponent } from './Componentes/work-experience/work-experience.component';
+import { ContactComponent } from './Componentes/contact/contact.component';
+import { FooterComponent } from './Componentes/footer/footer.component';
+import { PathTerminalComponent } from './Componentes/path-terminal/path-terminal.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { FooterComponent } from './footer/footer.component';
     TracksComponent,
     WorkExperienceComponent,
     ContactComponent,
-    FooterComponent
+    FooterComponent,
+    PathTerminalComponent
   ],
   imports: [
     BrowserModule,
