@@ -1,8 +1,8 @@
 <div class="header-container">
     <div class="col1">
         <div>
-            <h1 class="text-gradient">Michael Chavarria Flores</h1>
-            <h3 style="color: grey;">Fullstack Developer</h3>
+            <h1 class="text-gradient">{{ usuario.nombre }}</h1>
+            <h3 style="color: grey;">{{ usuario.puesto }}</h3>
         </div>                 
     </div>
     <div class="col2">                
@@ -10,10 +10,10 @@
             <pre class="pre-header">
                 <code class="">
                     <span class="COLMOR oblique" style="font-weight: bold;">const </span><span style="color:rgba(136, 26, 138, 1);">maikolchf</span> = <span style="color: blue;">{{ '{' }}</span>
-                    &nbsp;&nbsp;&nbsp;<span class="COLROJ">id</span>: '1',
-                    &nbsp;&nbsp;&nbsp;<span class="COLROJ">nombre</span>: 'Michael Chavarria Flores',
-                    &nbsp;&nbsp;&nbsp;<span class="COLROJ">puesto</span>: 'Fullstack Developer',
-                    &nbsp;&nbsp;&nbsp;<span class="COLROJ">pasatiempos</span>: <span style="color: blue;">[</span>'Ciclismo','Video Juegos'<span style="color: blue;">]</span>
+                    &nbsp;&nbsp;&nbsp;<span class="COLROJ">id</span>: {{ usuario.id }},
+                    &nbsp;&nbsp;&nbsp;<span class="COLROJ">nombre</span>: {{ usuario.nombre }},
+                    &nbsp;&nbsp;&nbsp;<span class="COLROJ">puesto</span>: {{ usuario.puesto }},
+                    &nbsp;&nbsp;&nbsp;<span class="COLROJ">pasatiempos</span>: <span style="color: blue;">[</span >{{ usuario.pasatiemposConcat }}<span style="color: blue;">]</span>
                     <span style="color: blue;">{{ '}' }}</span>
                 </code>
             </pre>                    
